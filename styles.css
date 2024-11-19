@@ -1,0 +1,372 @@
+/* Estilos Generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #18274f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006600;
+    padding: 15px;
+    color: white;
+}
+
+header .header-left .logo {
+    height: 120px; /* Ajusta el tamaño del logo */
+}
+
+header .header-center {
+    text-align: center;
+    flex-grow: 1;
+}
+
+header .header-center h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header .header-center .slogan {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+header .header-right .button {
+    margin-left: 15px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+header .header-right .button:hover {
+    background-color: #502a17;
+}
+
+/* Sección de Objetivos */
+.objectives {
+    padding: 30px 0;
+    background-color: #3f3a84;
+    text-align: center;
+}
+
+.objectives h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #006600; /* Color del título */
+    text-transform: uppercase; /* Hace que el texto sea en mayúsculas */
+}
+
+/* Sección de Objetivos */
+.objectives {
+    padding: 30px 0;
+    background-color: #d4daff;
+    text-align: center;
+}
+
+.objectives h3 {
+    font-size: 28px;
+    margin-bottom: 20px; /* Espacio entre el título y las tarjetas */
+    font-weight: 600;
+    color: #ffffff; /* Color del título */
+    text-transform: uppercase; /* Hace que el texto sea en mayúsculas */
+    width: 100%; /* Asegura que el título ocupe toda la línea */
+    text-align: center; /* Centra el título */
+}
+
+/* Contenedor general de objetivos */
+.objectives .container {
+    display: flex; /* Habilita el diseño horizontal */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten si no caben en una fila */
+    justify-content: space-between; /* Espacia uniformemente las tarjetas */
+    gap: 20px; /* Espacio entre tarjetas */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cada tarjeta de objetivo */
+.objective-card {
+    flex: 1; /* Cada tarjeta ocupará un espacio igual */
+    max-width: 30%; /* Limita el ancho máximo de las tarjetas */
+    min-width: 280px; /* Asegura un tamaño mínimo */
+    background-color: #7c4930; /* Color de fondo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Hover para dar efecto de ampliación */
+.objective-card:hover {
+    transform: scale(1.05);
+}
+
+/* Imágenes dentro de las tarjetas */
+.objective-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Títulos y textos */
+.objective-card h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+.objective-card p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* Estilos del Carrusel */
+
+.carousel-title {
+    text-align: center; /* Centra el título */
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px; /* Da espacio debajo del título */
+    font-weight: bold;
+}
+
+/* Estilos del Carrusel */
+.carousel-content {
+    display: flex;
+    justify-content: space-between; /* Espacio entre imagen y texto */
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.carousel-text {
+    max-width: 500px;
+    margin-right: 30px;
+}
+.carousel-section h3 {
+    text-align: center;  /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color:#fff;
+}
+
+.carousel-text h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff; /* Blanco para resaltar el título */
+}
+
+.carousel-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff; /* Blanco para la descripción */
+}
+
+.carousel-image img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.products {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.products h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    background-color: #d4daff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #007bff;
+}
+.title { /* Nueva clase para el título */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px; /* Separar el título de los productos */
+}
+footer {
+    background-color: #006600;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;         /* Asegura que el footer ocupe el 100% del ancho */
+    position: relative;  /* Asegura que no haya conflictos con otros elementos */
+    bottom: 0;           /* Fija el footer al fondo de la página si es necesario */
+    display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y margen no afecten el tamaño */
+}
+
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;  /* Espacio entre los iconos */
+    margin-bottom: 10px;
+}
+
+footer .social-icon {
+    font-size: 30px;  /* Tamaño de los íconos */
+    color: white;     /* Color blanco por defecto */
+    text-decoration: none;  /* Eliminar subrayado */
+    transition: color 0.3s ease;  /* Efecto de transición en el color */
+}
+
+/* Colores específicos para hover de cada red social */
+footer .facebook:hover {
+    color: #3b5998;  /* Color de Facebook */
+}
+
+footer .tiktok:hover {
+    color: #010101;  /* Color de TikTok */
+}
+
+footer .whatsapp:hover {
+    color: #25d366;  /* Color de WhatsApp */
+}
+
+footer .instagram:hover {
+    color: #e4405f;  /* Color de Instagram */
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/* Estilos del Carrusel */
+.carousel-section {
+    background-color: #7c4930;
+    padding: 40px 0;
+}
+
+.carousel-title {
+    text-align: center; /* Centra el título */
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px; /* Da espacio debajo del título */
+    font-weight: bold;
+}
+
+/* Estilos del Carrusel */
+.carousel-content {
+    display: flex;
+    justify-content: space-between; /* Espacio entre imagen y texto */
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.carousel-text {
+    max-width: 500px;
+    margin-right: 30px;
+}
+
+.carousel-text h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff; /* Blanco para resaltar el título */
+}
+
+.carousel-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff; /* Blanco para la descripción */
+}
+
+.carousel-image img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .objectives .container {
+        flex-direction: column; /* En pantallas pequeñas, las tarjetas se apilan verticalmente */
+        align-items: center; /* Centra las tarjetas */
+    }
+
+    .objective-card {
+        max-width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+    }
+
+    .carousel-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousel-image img {
+        max-width: 100%;
+    }
+
+    .carousel-text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
